@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>
+                    %style{%d{yyyy-MM-dd HH:mm:ss}}{cyan} %style{[%t]}{blue} %highlight{%-5level}{FATAL=red bold, ERROR=red, WARN=yellow bold, INFO=green, DEBUG=cyan, TRACE=magenta} %style{%logger{36}}{blue} - %msg%n%throwable
+                </pattern>
+            </PatternLayout>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="${sys:log.level:-debug}">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>
