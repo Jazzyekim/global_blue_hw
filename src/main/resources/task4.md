@@ -1,13 +1,12 @@
-# Exercise 4: Estimating Annual Costs for Operating a Cross-
-## Team Mobile Farm
+# Exercise 4: Estimating Annual Costs for Operating a Cross-Team Mobile Farm
 
-## Objective:
+### Objective:
 Estimate the annual costs of operating a mobile test farm that supports both iOS
 and Android devices. The farm should be able to serve two teams at the same
 time, allowing them to run tests with 5 parallel sessions. Compare the costs for
 in-house vs. 3rd party options and for emulated vs. physical devices. Assume an
 existing framework that can execute parallel mobile tests on any Appium setup.
-Requirements:
+### Requirements:
 1. Device Types: Include both iOS and Android devices.
 2. Parallel Sessions: Support 5 parallel test sessions.
 3. Teams: The farm should serve two teams at the same time.
